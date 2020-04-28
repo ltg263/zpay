@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--pull to refresh-->
+    <declare-styleable name="PtrFrameLayout">
+        <!-- 可选的。如果您将header和content放在xml中，您可以使用它们来指定它们。 -->
+        <attr name="ptr_header" format="reference" />
+        <attr name="ptr_content" format="reference" />
+        <!-- 移动帧时的阻力 -->
+        <attr name="ptr_resistance" format="float" />
+        <!-- 触发刷新的页眉高度的比值 -->
+        <attr name="ptr_ratio_of_header_height_to_refresh" format="float" />
+        <attr name="ptr_duration_to_close" format="integer" />
+        <attr name="ptr_duration_to_close_header" format="integer" />
+        <!-- 拉刷新，否则释放刷新，默认是释放刷新 -->
+        <attr name="ptr_pull_to_fresh" format="boolean" />
+        <!-- 保持头当刷新-->
+        <attr name="ptr_keep_header_when_refresh" format="boolean" />
+    </declare-styleable>
+</resources>

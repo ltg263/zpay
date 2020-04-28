@@ -1,4 +1,6 @@
-package com.qianjin.support;
+package com.caidie.skzs.payutils;
+
+import com.caidie.skzs.payutils.NTPTimeUtil;
 
 /**
  * 订单

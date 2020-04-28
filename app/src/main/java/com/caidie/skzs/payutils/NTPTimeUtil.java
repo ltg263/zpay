@@ -1,4 +1,4 @@
-package com.qianjin.support;
+package com.caidie.skzs.payutils;
 
 import org.apache.commons.net.ntp.NTPUDPClient;
 import org.apache.commons.net.ntp.TimeInfo;

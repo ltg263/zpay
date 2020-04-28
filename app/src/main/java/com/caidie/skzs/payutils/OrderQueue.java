@@ -1,4 +1,4 @@
-package com.qianjin.support;
+package com.caidie.skzs.payutils;
 
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.LinkedBlockingQueue;

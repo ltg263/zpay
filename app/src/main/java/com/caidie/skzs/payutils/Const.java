@@ -1,4 +1,4 @@
-package com.qianjin.support;
+package com.caidie.skzs.payutils;
 
 public interface Const {
 
